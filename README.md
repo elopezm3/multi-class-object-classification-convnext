@@ -2,8 +2,6 @@
 
 🏆 **Achieved 99.79% validation accuracy** using transfer learning with ConvNeXt-Base-384-22k on a 20-class object classification task.
 
-![Training Results](images/training_curves.png)
-
 ## 🎯 Project Overview
 This project demonstrates advanced transfer learning techniques for multi-class image classification, achieving state-of-the-art performance on a diverse dataset of 20 object categories including animals, food items, and everyday objects.
 
@@ -57,14 +55,11 @@ This project demonstrates advanced transfer learning techniques for multi-class 
 ## 🏃‍♂️ Quick Start
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/multi-class-object-classification-convnext.git
+git clone https://github.com/elopezm3/multi-class-object-classification-convnext.git
 cd multi-class-object-classification-convnext
 
 # Install dependencies
 pip install -r requirements.txt
-
-# Download dataset
-python src/download_data.py
 
 # Run training
 jupyter notebook notebooks/multi_class_object_classification.ipynb
